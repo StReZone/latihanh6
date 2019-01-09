@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/latihancss.css">
+<title>Traning HTML,CSS dan JS </title>
+</head>
+
+<nav>
+    <ul>
+        <li><a href="home.htm">Training HTLM, CSS dan JS</a></li>
+        <li class="kanan"><a id="kanan" href="home.htm">Home</a></li>
+        <li class="kanan"><a href="profile.htm"> Profile</a></li>
+        <li class="kanan"><a href="contact.htm"> Contact</a></li>
+    </ul>
+</nav>
+<body>
+    <section>
+    <div class="row">
+        <div class="column left sidea">
+            <h1 > RUBENSON C SILABAN</h1>
+            <img class="imgx" src="pic/profile.jpg" alt="Avatar"style="width:80px">
+        </div>
+        <div class="column center sidea">
+            <a>Email</a><br><br>
+            <a>message</a>
+        </div>
+        <div class="column right sidea">
+                <form name="myF" action="contact.htm" onsubmit="return validateForm()" method="post">
+                    <input type="text" id="email"name="email"><br><br>
+                    <textarea form="myF" id="area" name="area" rows="4" cols="50"></textarea><br><br>
+                    <input type="submit" name="submit">
+                </form>
+                      
+        </div>
+    </div>
+    </section>
+    
+</body>
+<script src="js/valid.js"></script>
+<script src="js/Mypic.js"></script>
+
+</html>
