@@ -2,49 +2,57 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/latihancss.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="boots/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
 <title>Traning HTML,CSS dan JS </title>
 </head>
-<nav>
-    <ul>
-        <li><a href="home.htm">Training HTLM, CSS dan JS</a></li>
-        <li class="kanan"><a id="kanan" href="home.htm">Home</a></li>
-        <li class="kanan"><a href="profile.htm"> Profile</a></li>
-        <li class="kanan"><a href="contact.htm"> Contact</a></li>
-    </ul>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+                <a class="navbar-brand" href="home.htm">Training HTLM, CSS dan JS </a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li ><a href="home.htm">Home</a></li>
+            <li ><a href="profile.htm"> Profile</a></li>
+            <li ><a href="contact.htm"> Contact</a></li>
+        </ul>
+    </div>  
 </nav>
 <body>
-    <section>
+    <section>            
     <div class="row">
-        <div class="column left sidea ">
+        <div class="col-md-4 col-md-offset-1">
             <h1 > RUBENSON C SILABAN</h1>
-            <img class="imgx" src="pic/profile.jpg" alt="Avatar"style="width:80px">
+            <img class="img-circle" src="pic/profile.jpg" alt="Avatar"style="width:80px">
         </div>
-        <div class="column right sidec">
-                <table cellpadding="0" cellspacing="0">
-                        <tr>
-                          <td>Nama </td>
-                          <td>Rubenson Christian Silaban</td>
-                        </tr>
-                        <tr>
-                            <td>Tempat, Tanggal Lahir</td>
-                            <td>Bandung, 31 Maret 1994</td>
-                        </tr>
-                        <tr>
-                            <td>Jenis Kelamin</td>
-                            <td>Pria</td>
-                        </tr> 
-                          <td>Alamat Domisili</td>
-                          <td>Cicalengka</td>
-                        </tr>
-                      </table>
-                      
+        <div class="col-md-4 col-md-offset-2">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                  <td>Nama </td>
+                  <td>Rubenson Christian Silaban</td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tanggal Lahir</td>
+                    <td>Bandung, 31 Maret 1994</td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>Pria</td>
+                </tr> 
+                  <td>Alamat Domisili</td>
+                  <td>Cicalengka</td>
+                </tr>
+            </table>
+            </div>
         </div>
-    </div>
-        
     </div>
     </section>
-    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="boots/js/bootstrap.min.js"></script>
 </body>
 <script src="js/Mypic.js"></script>
 
